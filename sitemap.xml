@@ -57,7 +57,10 @@
 <url> <loc>https://www.resolvepay.com/integrations/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.resolvepay.com/lp/accounts-receivable-automation/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.resolvepay.com/lp/components-sem-lp/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://www.resolvepay.com/lp/magento-b2b/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.resolvepay.com/lp/net-terms/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://www.resolvepay.com/lp/quickbooks-ar/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://www.resolvepay.com/lp/quickbooks-cashflow/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.resolvepay.com/lp/resolve-vs-apruve/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.resolvepay.com/lp/resolve-vs-behalf/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.resolvepay.com/lp/resolve-vs-fundbox-pay/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
