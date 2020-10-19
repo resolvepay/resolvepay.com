@@ -50,6 +50,10 @@
 <url> <loc>https://resolvepay.com/advance-pay/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://resolvepay.com/buyers/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://resolvepay.com/contact-sales/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://resolvepay.com/customers/hyperikon/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://resolvepay.com/customers/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://resolvepay.com/customers/sdi-fire/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://resolvepay.com/customers/vice-golf/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://resolvepay.com/grow-sales/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://resolvepay.com/how-it-works/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://resolvepay.com/improve-cashflow/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
