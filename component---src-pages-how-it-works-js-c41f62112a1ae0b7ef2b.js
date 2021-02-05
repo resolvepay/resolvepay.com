@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[34],{YzvB:function(n,t,e){"use strict";e.r(t),e.d(t,"default",(function(){return i}));var u=e("q1tI"),c=e("Wbzz");function i(){return Object(u.useEffect)((function(){Object(c.navigate)("/net-terms")})),null}}}]);
-//# sourceMappingURL=component---src-pages-how-it-works-js-c41f62112a1ae0b7ef2b.js.map

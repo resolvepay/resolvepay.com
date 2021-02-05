@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[23],{"2stL":function(n,t,e){"use strict";e.r(t),e.d(t,"default",(function(){return i}));var u=e("q1tI"),c=e("Wbzz");function i(){return Object(u.useEffect)((function(){Object(c.navigate)("/")})),null}}}]);
+//# sourceMappingURL=component---src-pages-affirm-js-9deb537b9ea34af0d97f.js.map
