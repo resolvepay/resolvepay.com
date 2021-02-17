@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[23],{"2stL":function(e,n,t){"use strict";t.r(n),t.d(n,"default",(function(){return r}));var c=t("q1tI"),o=t("Wbzz");function r(){return Object(c.useEffect)((function(){document.cookie="resolve_referral=affirm; max-age=4838400; path=/;",Object(o.navigate)("/")})),null}}}]);
-//# sourceMappingURL=component---src-pages-affirm-js-7d486d9d47fafed2a0f2.js.map

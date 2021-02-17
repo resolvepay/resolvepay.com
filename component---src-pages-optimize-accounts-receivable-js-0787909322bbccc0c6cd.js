@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[52],{VZt7:function(n,t,e){"use strict";e.r(t),e.d(t,"default",(function(){return i}));var c=e("q1tI"),u=e("Wbzz");function i(){return Object(c.useEffect)((function(){Object(u.navigate)("/accounts-receivable")})),null}}}]);
+//# sourceMappingURL=component---src-pages-optimize-accounts-receivable-js-0787909322bbccc0c6cd.js.map
