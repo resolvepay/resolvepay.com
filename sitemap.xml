@@ -70,6 +70,7 @@
 <url> <loc>https://resolvepay.com/pricing/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://resolvepay.com/privacy/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://resolvepay.com/sellers/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://resolvepay.com/shopify-form/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://resolvepay.com/terms/advance/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://resolvepay.com/terms/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
