@@ -1,0 +1,2 @@
+(self.webpackChunkresolve_web_gatsby=self.webpackChunkresolve_web_gatsby||[]).push([[7048],{13764:function(e,n,t){"use strict";t.r(n),t.d(n,{default:function(){return s}});var u=t(67294),c=t(25444);function s(){return(0,u.useEffect)((function(){(0,c.navigate)("/accounts-receivable")})),null}}}]);
+//# sourceMappingURL=component---src-pages-improve-cashflow-js-cbb926a1c82e47f93195.js.map

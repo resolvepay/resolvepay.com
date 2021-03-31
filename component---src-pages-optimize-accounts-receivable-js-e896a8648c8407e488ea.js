@@ -1,0 +1,2 @@
+(self.webpackChunkresolve_web_gatsby=self.webpackChunkresolve_web_gatsby||[]).push([[7798],{48866:function(e,n,t){"use strict";t.r(n),t.d(n,{default:function(){return s}});var u=t(67294),c=t(25444);function s(){return(0,u.useEffect)((function(){(0,c.navigate)("/accounts-receivable")})),null}}}]);
+//# sourceMappingURL=component---src-pages-optimize-accounts-receivable-js-e896a8648c8407e488ea.js.map
