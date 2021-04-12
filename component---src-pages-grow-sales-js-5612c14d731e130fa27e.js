@@ -1,2 +1,0 @@
-(self.webpackChunkresolve_web_gatsby=self.webpackChunkresolve_web_gatsby||[]).push([[1221],{79622:function(e,n,t){"use strict";t.r(n),t.d(n,{default:function(){return f}});var u=t(67294),s=t(25444);function f(){return(0,u.useEffect)((function(){(0,s.navigate)("/")})),null}}}]);
-//# sourceMappingURL=component---src-pages-grow-sales-js-5612c14d731e130fa27e.js.map

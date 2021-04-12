@@ -1,2 +1,0 @@
-(self.webpackChunkresolve_web_gatsby=self.webpackChunkresolve_web_gatsby||[]).push([[5494],{73971:function(e,n,t){"use strict";t.r(n),t.d(n,{default:function(){return a}});var r=t(67294),u=t(25444);function a(){return(0,r.useEffect)((function(){document.cookie="resolve_referral=affirm; max-age=4838400; path=/;",(0,u.navigate)("/")})),null}}}]);
-//# sourceMappingURL=component---src-pages-affirm-js-3568bdcc20c50cdd9da3.js.map
