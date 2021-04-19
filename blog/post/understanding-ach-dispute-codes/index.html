@@ -101,19 +101,20 @@
 <p>Administrative failure codes can be related to customers not typing in the right account number. On the customer ACH setup or payment form, include the account number field twice. The second field serves for verification, so that the customer didn't accidentally enter a typo.</p>
 <p><strong>RESPONSE CODE DEFINITION</strong></p>
 <ul>
-<li>R02: Account ClosedCustomer or Receiving Depository Financial Institution (RDFI) has closed the account.</li>
-<li>R03: No Account/Unable to Locate AccountAccount number passes check digit validation but does not match customer information, or account has been closed.</li>
-<li>R04: Invalid Account NumberAccount number structure is not valid.</li>
+<li>R02: Account Closed. Customer or Receiving Depository Financial Institution (RDFI) has closed the account.</li>
+<li>R03: No Account/Unable to Locate Account. Account number passes check digit validation but does not match customer information, or account has been closed.</li>
+<li>R04: Invalid Account Number. Account number structure is not valid.</li>
 </ul>
 <h2 id="common-ach-return-codes" style="position:relative;"><a href="#common-ach-return-codes" aria-label="common ach return codes permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Common ACH Return Codes</h2>
 <p><strong>RESPONSE CODE DEFINITION</strong></p>
 <ul>
-<li>R01: Insufficient FundsAccount doesn’t have enough funds to pay for purchase.</li>
-<li>R06: Returned Per ODFI RequestThe ODFI has requested that the RDFI return the ACH payment.</li>
-<li>R08: Payment StoppedThe receiver has stopped payment.</li>
-<li>R09: Uncollected FundsThe account balance has enough funds to cover payment but doing so will bring the available or cash reserve balance below the dollar value of the debit entry.</li>
-<li>R14: Account Holder DeceasedR16: Account FrozenFunds may be in account but are not available for processing by ACH due to actions taken by the RDFI or by legal action.</li>
-<li>R20: Non-Transaction AccountCustomer may have changed accounts.</li>
+<li>R01: Insufficient Funds. Account doesn’t have enough funds to pay for purchase.</li>
+<li>R06: Returned Per ODFI Request. The ODFI has requested that the RDFI return the ACH payment.</li>
+<li>R08: Payment Stopped. The receiver has stopped payment.</li>
+<li>R09: Uncollected Funds. The account balance has enough funds to cover payment but doing so will bring the available or cash reserve balance below the dollar value of the debit entry.</li>
+<li>R14: Account Holder Deceased</li>
+<li>R16: Account Frozen. Funds may be in account but are not available for processing by ACH due to actions taken by the RDFI or by legal action.</li>
+<li>R20: Non-Transaction Account. Customer may have changed accounts.</li>
 </ul>
 <h2 id="unauthorized-debit-entries" style="position:relative;"><a href="#unauthorized-debit-entries" aria-label="unauthorized debit entries permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Unauthorized Debit Entries</h2>
 <p>Sometimes a customer may forget buying something from you, especially if the customer is looking at the statement days or weeks later. When he/she sees a charge from “SC Plaz” instead of Scottsdale Auto Plaza, he/she may dispute it.</p>
@@ -121,11 +122,11 @@
 <p>As well, include your customer service phone number on the receipt. Also, be sure the voicemail states the business name. These tips will help to reduce disputes.</p>
 <p><strong>RESPONSE CODE DEFINITION</strong></p>
 <ul>
-<li>R05: Unauthorized Debit to Consumers AccountAccount number structure is not valid.</li>
-<li>R07: Authorization RevokedPayment originally authorized by customer has been revoked.</li>
-<li>R10: Customer Advises Not AuthorizedItem Is Ineligible, Notice Not Provided, Signatures Not Genuine, or Item Altered.</li>
-<li>R29: Corporate Not AuthorizedOriginator is not authorized to debit the customer’s account.</li>
-<li>R51: RCK EntryRelated Item Ineligible/Entry Improper.</li>
+<li>R05: Unauthorized Debit to Consumers Account. Account number structure is not valid.</li>
+<li>R07: Authorization Revoked. Payment originally authorized by customer has been revoked.</li>
+<li>R10: Customer Advises Not Authorized. Item Is Ineligible, Notice Not Provided, Signatures Not Genuine, or Item Altered.</li>
+<li>R29: Corporate Not Authorized. Originator is not authorized to debit the customer’s account.</li>
+<li>R51: RCK Entry. Related Item Ineligible/Entry Improper.</li>
 </ul>
 <h2 id="tips-for-resolving-ach-disputes" style="position:relative;"><a href="#tips-for-resolving-ach-disputes" aria-label="tips for resolving ach disputes permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tips for Resolving ACH Disputes</h2>
 <p>Resolving ACH disputes starts with gathering the code description and contacting the customer. Sometimes the issue may simply be a matter of the customer not recognizing the charge.</p>
