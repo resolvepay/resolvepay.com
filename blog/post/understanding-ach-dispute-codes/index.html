@@ -99,35 +99,119 @@
 <p>The following is a list of ACH dispute codes, grouped by category.</p>
 <h2 id="administrative-failures" style="position:relative;"><a href="#administrative-failures" aria-label="administrative failures permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Administrative Failures</h2>
 <p>Administrative failure codes can be related to customers not typing in the right account number. On the customer ACH setup or payment form, include the account number field twice. The second field serves for verification, so that the customer didn't accidentally enter a typo.</p>
-<p><strong>RESPONSE CODE DEFINITION</strong></p>
-<ul>
-<li>R02: Account Closed. Customer or Receiving Depository Financial Institution (RDFI) has closed the account.</li>
-<li>R03: No Account/Unable to Locate Account. Account number passes check digit validation but does not match customer information, or account has been closed.</li>
-<li>R04: Invalid Account Number. Account number structure is not valid.</li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Response</th>
+<th>Code</th>
+<th>Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>R02</td>
+<td>Account Closed</td>
+<td>Customer or Receiving Depository Financial Institution (RDFI) has closed the account</td>
+</tr>
+<tr>
+<td>R03</td>
+<td>No Account/Unable to Locate Account</td>
+<td>Account number passes check digit validation but does not match customer information, or account has been closed.</td>
+</tr>
+<tr>
+<td>R04</td>
+<td>Invalid Account Number</td>
+<td>Account number structure is not valid.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="common-ach-return-codes" style="position:relative;"><a href="#common-ach-return-codes" aria-label="common ach return codes permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Common ACH Return Codes</h2>
-<p><strong>RESPONSE CODE DEFINITION</strong></p>
-<ul>
-<li>R01: Insufficient Funds. Account doesn’t have enough funds to pay for purchase.</li>
-<li>R06: Returned Per ODFI Request. The ODFI has requested that the RDFI return the ACH payment.</li>
-<li>R08: Payment Stopped. The receiver has stopped payment.</li>
-<li>R09: Uncollected Funds. The account balance has enough funds to cover payment but doing so will bring the available or cash reserve balance below the dollar value of the debit entry.</li>
-<li>R14: Account Holder Deceased</li>
-<li>R16: Account Frozen. Funds may be in account but are not available for processing by ACH due to actions taken by the RDFI or by legal action.</li>
-<li>R20: Non-Transaction Account. Customer may have changed accounts.</li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Response</th>
+<th>Code</th>
+<th>Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>R01</td>
+<td>Insufficient Funds</td>
+<td>Account doesn’t have enough funds to pay for purchase.</td>
+</tr>
+<tr>
+<td>R06</td>
+<td>Returned Per ODFI Request</td>
+<td>The ODFI has requested that the RDFI return the ACH payment.</td>
+</tr>
+<tr>
+<td>R08</td>
+<td>Payment Stopped</td>
+<td>The receiver has stopped payment.</td>
+</tr>
+<tr>
+<td>R09</td>
+<td>Uncollected Funds</td>
+<td>The account balance has enough funds to cover payment but doing so will bring the available or cash reserve balance below the dollar value of the debit entry.</td>
+</tr>
+<tr>
+<td>R14</td>
+<td>Account Holder Deceased</td>
+<td></td>
+</tr>
+<tr>
+<td>R16</td>
+<td>Account Frozen</td>
+<td>Funds may be in account but are not available for processing by ACH due to actions taken by the RDFI or by legal action.</td>
+</tr>
+<tr>
+<td>R20</td>
+<td>Non-Transaction Account</td>
+<td>Customer may have changed accounts.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="unauthorized-debit-entries" style="position:relative;"><a href="#unauthorized-debit-entries" aria-label="unauthorized debit entries permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Unauthorized Debit Entries</h2>
 <p>Sometimes a customer may forget buying something from you, especially if the customer is looking at the statement days or weeks later. When he/she sees a charge from “SC Plaz” instead of Scottsdale Auto Plaza, he/she may dispute it.</p>
 <p>If the name of your business is truncated or otherwise looks different on customer statements, inform the customer of how the business name will appear on the statement. You can do this verbally (best) and by printing this info on the receipt. Even if you inform the customer verbally, always include the info again on the receipt.</p>
 <p>As well, include your customer service phone number on the receipt. Also, be sure the voicemail states the business name. These tips will help to reduce disputes.</p>
-<p><strong>RESPONSE CODE DEFINITION</strong></p>
-<ul>
-<li>R05: Unauthorized Debit to Consumers Account. Account number structure is not valid.</li>
-<li>R07: Authorization Revoked. Payment originally authorized by customer has been revoked.</li>
-<li>R10: Customer Advises Not Authorized. Item Is Ineligible, Notice Not Provided, Signatures Not Genuine, or Item Altered.</li>
-<li>R29: Corporate Not Authorized. Originator is not authorized to debit the customer’s account.</li>
-<li>R51: RCK Entry. Related Item Ineligible/Entry Improper.</li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Response</th>
+<th>Code</th>
+<th>Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>R05</td>
+<td>Unauthorized Debit to Consumers Account</td>
+<td>Account number structure is not valid.</td>
+</tr>
+<tr>
+<td>R07</td>
+<td>Authorization Revoked</td>
+<td>Payment originally authorized by customer has been revoked.</td>
+</tr>
+<tr>
+<td>R10</td>
+<td>Customer Advises Not Authorized</td>
+<td>Item Is Ineligible, Notice Not Provided, Signatures Not Genuine, or Item Altered.</td>
+</tr>
+<tr>
+<td>R29</td>
+<td>Corporate Not Authorized</td>
+<td>Originator is not authorized to debit the customer’s account.</td>
+</tr>
+<tr>
+<td>R51</td>
+<td>RCK Entry</td>
+<td>Related Item Ineligible/Entry Improper.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="tips-for-resolving-ach-disputes" style="position:relative;"><a href="#tips-for-resolving-ach-disputes" aria-label="tips for resolving ach disputes permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tips for Resolving ACH Disputes</h2>
 <p>Resolving ACH disputes starts with gathering the code description and contacting the customer. Sometimes the issue may simply be a matter of the customer not recognizing the charge.</p>
 <p>In some cases, the customer may not know why the charge was disputed. For those disputes, check the two sections above titled “Common ACH Return Codes” and “Unauthorized Debit Entries.” You and the customer may need to contact the customer’s bank to resolve the issue.</p>
