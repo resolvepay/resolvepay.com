@@ -1,0 +1,2 @@
+(self.webpackChunkresolve_web_gatsby=self.webpackChunkresolve_web_gatsby||[]).push([[1843],{9052:function(e,n,t){"use strict";t.r(n),t.d(n,{default:function(){return r}});var u=t(7294),s=t(5444);function r(){return(0,u.useEffect)((function(){(0,s.navigate)("/customers/")})),null}}}]);
+//# sourceMappingURL=component---src-pages-case-studies-js-2e588ca768f8d26ee6d5.js.map
